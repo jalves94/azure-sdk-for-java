@@ -2,10 +2,10 @@
 ## Development Process
 The development process used by Microsoft is an agile process. An agile process is an iterative and incremental model that it is characterized to work into small increments that minimize the amount of up-front planning and design. The idea is to have an available release with the minimum bugs at the end of each iteration. Advantages of this iterative approach to software development include [[1]](http://www.allaboutagile.com/agile-principle-5-how-do-you-eat-an-elephant/):
 
-* *Reduced risk*: clear visibility of what’s completed to date throughout a project
-* *Increased value*: delivering some benefits early; being able to release the product whenever it’s deemed good enough, rather than having to wait for all intended features to be ready
-* *More flexibility/agility*: can choose to change direction or adapt the next iterations based on actually seeing and using the software
-* *Better cost management*: if, like all-too-many software development projects, you run over budget, some value can still be realised; you don’t have to scrap the whole thing if you run short of funds
+* _Reduced risk_: clear visibility of what’s completed to date throughout a project
+* _Increased value_: delivering some benefits early; being able to release the product whenever it’s deemed good enough, rather than having to wait for all intended features to be ready
+* _More flexibility/agility_: can choose to change direction or adapt the next iterations based on actually seeing and using the software
+* _Better cost management_: if, like all-too-many software development projects, you run over budget, some value can still be realised; you don’t have to scrap the whole thing if you run short of funds
 
 The goal of Microsoft is to build software more incrementally in order to deliver it faster to consumers. That way, they can use the product and give their feedback and Microsoft can learn from it in order to make the product better.
 
