@@ -16,6 +16,19 @@ In this project, developing the software using a waterfall model would be a fail
 * Spending one year coding and one year testing all the services that the company is able to offer might lead to some services being unuseful for the client after two years (or being already delivered by other company);
 * The company wouldn't be able to change and adapt itself to its clients and, consequently, wouldnít be capable of delivering something new. A successful company is one that knows how to translate an idea into reality and can deliver the product to the clients quickly.
 
+The project is quite big and complex and there are some bugs in a few services that can be fixed. There are several branches in GitHub that contain code for the preparation of next releases and iterations and also code to fix some bugs.[[6]] (http://mentormate.com/blog/windows-azure-development-lifecycle/)
+
+## Code and build conventions
+
+The project follows the code standard presented in [[7]] (http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html). 
+
+This project is developed using Maven which is a tool that can be used to build and manage any Java-based project. The objective of this tool is to allow a developer to understand the state of a development project as quickly as possible. 
+To attain this goal, Maven makes the process easier, provides an uniform build system, quality information on the project and guidelines for the best development practices [[8]] (https://maven.apache.org/what-is-maven.html).
+
+As all project features must be done with this tool, anyone who wants to contribute to this project and is familiar with Maven can understand how the rest of the project was built [[8]] (https://maven.apache.org/what-is-maven.html). By only reading the POM file (a file that contains information about the project and configuration details used by Maven to build it) the developer can know the project dependencies, the plugins or goals that can be executed and the build profiles [[9]] (https://maven.apache.org/guides/introduction/introduction-to-the-pom.html).
+
+## Alternative method suggestion
+
 An alternative model that could be use in Azure Software Development is the RAD model. Rapid Application Development model is an incremental software process model that focuses on short development cycle time. This model is a high-speedù model which adapts many steps from waterfall model in which rapid development is achieved by using component based construction approach.
 
 This would be a perfect fit for Azure since the basic requirements for implementing this model are probably answered in Azure:
