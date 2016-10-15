@@ -46,4 +46,4 @@ Besides this model brings a lot of advantages that are very useful along the dev
 * Prototyping applications gives users a tangible description from which to judge whether critical system requirements are being met by the system. Report output can be compared with existing reports. Data entry forms can be reviewed for completeness of all fields, navigation, data access (drop down lists, checkboxes, radio buttons, etc.).
 * RAD generally incorporates short development cycles: users see the RAD product quickly.
 * RAD involves user participation thereby increasing chances of early user community acceptance.
-* RAD realizes an overall reduction in project risk [[10]] (. 
+* RAD realizes an overall reduction in project risk [[10]] (http://www.technotrice.com/rad-model-software-engineering/). 
