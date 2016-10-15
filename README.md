@@ -15,7 +15,7 @@ The Azure Management Libraries for Java is a higher-level, object-oriented API f
 - Back up databases to storage accounts.
 - Automate the creation of virtual machines.
 
-To see more about the project and the development processes used click [here](https://github.com/jalves94/azure-sdk-for-java/blob/master/ESOF-docs/assignment1).
+To see more about the project and the development processes used click [here](https://github.com/jalves94/azure-sdk-for-java/blob/master/ESOF-docs/assignment1.md).
 
 > **1.0.0-beta2** is a developer preview that supports major parts of Azure Compute, Storage, Networking and Resource Manager. The next preview version of the Azure Management Libraries for Java is a work in-progress. We will be adding support for more Azure services and tweaking the API over the next few months.
 
