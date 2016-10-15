@@ -7,7 +7,7 @@ The development process used by Microsoft is an agile process. An agile process 
 * _More flexibility/agility_: can choose to change direction or adapt the next iterations based on actually seeing and using the software
 * _Better cost management_: if, like all-too-many software development projects, you run over budget, some value can still be realised; you don’t have to scrap the whole thing if you run short of funds
 
-The goal of Microsoft is to build software more incrementally in order to deliver it faster to consumers. That way, they can use the product and give their feedback and Microsoft can learn from it in order to make the product better.
+The goal of Microsoft is to build software more incrementally in order to deliver it faster to consumers through relatively frequent public releases. That way, they can use the product and give their feedback and Microsoft can learn from it in order to make the product better. For that reason, this project is customer feedback driven, since the developers try to be as responsive as possible to feedback, mainly through GitHub issues [[2]](https://github.com/Azure/azure-sdk-for-java/issues/1169#issuecomment-252742862). 
 
 Since this project includes several cloud services, an agile process is the ideal option: a version with some services can be released and then over time it will get updates with more services, adapting the product to the needs of the client. 
 
@@ -15,6 +15,8 @@ In this project, developing the software using a waterfall model would be a fail
 
 * Spending one year coding and one year testing all the services that the company is able to offer might lead to some services being unuseful for the client after two years (or being already delivered by other company);
 * The company wouldn't be able to change and adapt itself to its clients and, consequently, wouldn’t be capable of delivering something new. A successful company is one that knows how to translate an idea into reality and can deliver the product to the clients quickly.
+
+There are also other work philosophies that the team working on this project likes to follow. For example, even though each team member has its own title and responsibilities/functions, there is a certain “role blending” since a given team member can do work that goes beyond his/her function. Also, there isn’t a designated person to approve pull-requests since the development runs based on peer code-reviews - team members review each other's pull requests depending on availability and expertise. Additionally, testing is not performed by a different team as it is considered part of the development process [[2]](https://github.com/Azure/azure-sdk-for-java/issues/1169#issuecomment-252742862).
 
 The project is quite big and complex and there are some bugs in a few services that can be fixed. There are several branches in GitHub that contain code for the preparation of next releases and iterations and also code to fix some bugs.[[6]] (http://mentormate.com/blog/windows-azure-development-lifecycle/)
 
