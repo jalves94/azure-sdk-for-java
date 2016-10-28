@@ -21,6 +21,9 @@ However, before starting to identify the requirements, it is important to first 
 
 Once the scope is determined, how can requirements be identified? Requirements elicitation includes interacting with everyone that is affected by the system (stakeholders) and analysing all the available sources. On this project, this is done mainly through direct customer interactions, for example phone calls and meetings, since they give a better understanding of the higher-level customer scenarios and pain points the APIs are intended to address. Also, in terms of business priorities, they follow their management's strategic guidance. Given the scope of the project, every time there is a new feature/service available in Azure, providing the management tools for that service immediately becomes a requirement [[3]]( https://github.com/Azure/azure-sdk-for-java/issues/1169). 
 
+Afterwards, it is necessary to perform an analysis of the list of requirements and identify if there are any conflicts between them, i.e. if a certain requirement is contradicted by another, if there is information missing or even if a certain requirement can be misinterpreted and give rise to ambiguities. After the requirements analysis, it might be necessary to negotiate some changes in order to arrive at a final list of requirements and be able to produce a document to specify them (requirements specification) and to be later validated (requirements validation).
+
+Given the complexity of the project (1532 classes and 173072 lines of code), the group has decided to look at the project from a higher level and in a simplified manner. For that reason, the use cases and domain model were designed in a general way.
 
 ## Functional Requirements [[4]](https://azure.microsoft.com/pt-pt/blog/getting-started-with-the-azure-java-management-libraries/):
 
@@ -31,8 +34,13 @@ Once the scope is determined, how can requirements be identified? Requirements e
 
 ## Non-Functional Requirements:
 
-* Require Authentication: careless or malicious access to these APIs has the potential to break your applications and cost you money, so obviously these API calls need to be authenticated.ù [[5]](https://blogs.msdn.microsoft.com/tomholl/2014/11/24/unattended-authentication-to-azure-management-apis-with-azure-active-directory/)
+* Require Authentication: "careless or malicious access to these APIs has the potential to break your applications and cost you money, so obviously these API calls need to be authenticated". [[5]](https://blogs.msdn.microsoft.com/tomholl/2014/11/24/unattended-authentication-to-azure-management-apis-with-azure-active-directory/)
 * Provide different conditions to different types of Azure accounts: each account is usually associated with several features that are limited according to the price that was paid per month. For example, for the SQL Database the maximum storage capability is 250 GB per pool, which corresponds to the premium account; for the Machine Learning service, it can include up to 50000000 API transactions and 12500 API compute hours; and for the Virtual Machine service, there are several types that can be chosen (Linux, Windows, Ubuntu) [[6]](https://azure.microsoft.com/en-gb/pricing/calculator/).
+
+## Use Cases
+
+The system Azure SDK for Java interacts with two actors: the user, in this case the Java programmer, and with the Azure system (the public cloud). In a simple way, the user can manage all kind of settings for resources (including create, delete and update actions), start and stop web sites, do back up databases and create virtual machines. The relationship between the programmer and each one of the use cases and also the Azure system is a communication relationship. The use cases diagram is the following:
+![Use Cases Diagram](images/usecases.PNG)
 
 ## Domain Model
 The Azure SDK for Java provides the tools to use Azure with software developed with JAVA. That way it will allow to manage some resources of the Azure platform that will be used in the software, like virtual machines, SQL databases or a storage account. Depending of the kind of resource that itís going to be used, it can be, if wanted by the developer, associated in groups of resources that will be managed all together. It allows an easy and simple way of managing, for instance control and monitor, the resources used in a specific part of the software. The resources of Azure can interact in the same project with some resource groups or with other resources. So this API provides all the resource management tools, for resource and resource groups, that a user may need when developing in JAVA [[7]](https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/).
